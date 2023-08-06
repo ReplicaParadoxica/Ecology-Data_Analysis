@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('Data_interview.csv',
+data = pd.read_csv('Initial_data.csv',
                    parse_dates=['Datums.un.laiks'], dayfirst=True)
 
 # Can be commented out to produce Cleaned_dataNA.csv
